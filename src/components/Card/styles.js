@@ -20,14 +20,21 @@ a{
  display:flex;
  justify-content: space-between;
  align-items: center;
- color: var(--secondary)
+ color: var(--secondary);
+text-decoration: none;
 }
  h4{
- font-size: 0.8rem;
+ font-size: 0.9rem;
  font-weigt: 600;
  margin-bottom: 10px;
  }
 `
 export const Itens = styled.div`
+display: flex;
+justify-content: flex-start;
+flex-direction: column;
+span{
+margin-bottom: 10px;
+}
 
 `

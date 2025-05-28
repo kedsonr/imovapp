@@ -3,6 +3,10 @@ import { Header, Wrapper } from "./style";
 import Card from "../../components/Card";
 
 const Home = () => {
+  let Cards = [];
+  for( let i = 0; i < 4; i++) { 
+    Cards.push(<Card key={i}/>)
+  }
     return (
         <Fragment >
           <Header >
@@ -10,7 +14,7 @@ const Home = () => {
           </Header>
 
           <Wrapper>
-            <Card/>
+            {Cards}
           </Wrapper>
         </Fragment>
     )
