@@ -23,7 +23,7 @@ body{
   font-weitht: 400;
 }
 
-ul{list-style-type: none;}
+ul,nav{list-style-type: none;}
 
 a{text-decorantion: none;}
 
